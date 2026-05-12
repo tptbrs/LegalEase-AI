@@ -21,7 +21,6 @@ env/
 backend/chroma_db/*
 !backend/chroma_db/.gitkeep
 
-
 # --- Node / Vite ---
 node_modules/
 dist/
