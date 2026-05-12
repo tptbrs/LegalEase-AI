@@ -20,7 +20,7 @@ env/
 # --- Vector store & ingested PDFs (artifacts, not source) ---
 backend/chroma_db/*
 !backend/chroma_db/.gitkeep
-backend/data/acts/*
+
 !backend/data/acts/.gitkeep
 !backend/data/acts/*.pdf
 
