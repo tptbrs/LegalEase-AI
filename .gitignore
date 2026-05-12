@@ -18,8 +18,7 @@ env/
 .env.*.local
 
 # --- Vector store & ingested PDFs (artifacts, not source) ---
-backend/chroma_db/*
-!backend/chroma_db/.gitkeep
+
 
 # --- Node / Vite ---
 node_modules/
