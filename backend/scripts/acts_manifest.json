@@ -1,0 +1,65 @@
+{
+  "_comment": "Manifest of Indian Act PDFs to download. URLs verified live from official Indian government domains (mha.gov.in, legislative.gov.in, meity.gov.in, labour.gov.in, ncdrc.nic.in, cdnbbsr.s3waas.gov.in). indiacode.nic.in is intentionally avoided here because its bitstream URLs require an interactive session and block direct curl/httpx access. Filename auto-derived as <act_name>__<year>__<domain>.pdf.",
+  "acts": [
+    {
+      "act_name": "Bharatiya_Nyaya_Sanhita",
+      "year": "2023",
+      "domain": "criminal",
+      "url": "https://www.mha.gov.in/sites/default/files/250883_english_01042024.pdf"
+    },
+    {
+      "act_name": "Bharatiya_Nagarik_Suraksha_Sanhita",
+      "year": "2023",
+      "domain": "criminal",
+      "url": "https://www.mha.gov.in/sites/default/files/2024-04/250884_2_english_01042024.pdf"
+    },
+    {
+      "act_name": "Bharatiya_Sakshya_Adhiniyam",
+      "year": "2023",
+      "domain": "general",
+      "url": "https://www.mha.gov.in/sites/default/files/2024-04/250882_english_01042024_0.pdf"
+    },
+    {
+      "act_name": "Constitution_of_India",
+      "year": "1950",
+      "domain": "constitutional",
+      "url": "https://www.legislative.gov.in/static/uploads/2025/12/aa187bd277347972681116b208a267e2.pdf"
+    },
+    {
+      "act_name": "Information_Technology_Act",
+      "year": "2000",
+      "domain": "cyber",
+      "url": "https://www.meity.gov.in/static/uploads/2024/03/IT-Act-Rules_2000_0.pdf"
+    },
+    {
+      "act_name": "Consumer_Protection_Act",
+      "year": "2019",
+      "domain": "consumer",
+      "url": "https://ncdrc.nic.in/bare_acts/CPA2019.pdf"
+    },
+    {
+      "act_name": "Code_on_Wages",
+      "year": "2019",
+      "domain": "labour",
+      "url": "https://www.labour.gov.in/static/uploads/2025/06/c328da14bbb15fc4ad571dc33e7a4ab3.pdf"
+    },
+    {
+      "act_name": "Industrial_Disputes_Act",
+      "year": "1947",
+      "domain": "labour",
+      "url": "https://hrylabour.gov.in/staticdocs/labourActpdfdocs/ID_Act.pdf"
+    },
+    {
+      "act_name": "Hindu_Marriage_Act",
+      "year": "1955",
+      "domain": "family",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3ca0daec69b5adc880fb464895726dbdf/uploads/2022/08/2022080562.pdf"
+    },
+    {
+      "act_name": "Transfer_of_Property_Act",
+      "year": "1882",
+      "domain": "property",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3ca0daec69b5adc880fb464895726dbdf/uploads/2022/09/2022090983.pdf"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "home": "Home",
+    "chat": "Legal Q&A",
+    "strategy": "Strategy",
+    "fir": "FIR Generator",
+    "analyze": "Document Analyzer"
+  },
+  "common": {
+    "loading": "Working through the pipeline…",
+    "ask": "Ask",
+    "analyze": "Analyze",
+    "generate": "Generate",
+    "send": "Send",
+    "followup_placeholder": "Ask a follow-up question…",
+    "you": "You",
+    "assistant": "Assistant",
+    "new_chat": "New conversation",
+    "try_asking": "Try asking",
+    "model_label": "Model used for this answer",
+    "copy": "Copy",
+    "copied": "Copied",
+    "error": "Something went wrong"
+  },
+  "landing": {
+    "tagline": "Applied NLP for Indian Law",
+    "title": "Legal intelligence, grounded in statute.",
+    "subtitle": "A retrieval-augmented system that cites the exact section of the exact Act — never invented. Drafts FIRs, analyses contracts, explains rights in your language.",
+    "cta_primary": "Open Legal Q&A",
+    "cta_secondary": "Build a Case Strategy",
+    "feature_qa_title": "Statute-cited answers",
+    "feature_qa_body": "Every claim ties back to a retrieved section. No hallucinated case law.",
+    "feature_strategy_title": "Phased case strategy",
+    "feature_strategy_body": "Turn a dispute into a sequenced plan — phases, durations, costs, statutory hooks, and risks if skipped.",
+    "feature_fir_title": "FIR drafting",
+    "feature_fir_body": "Map an incident to BNS / IPC sections. Export a formal PDF in one click.",
+    "feature_analyze_title": "Document analyser",
+    "feature_analyze_body": "Upload a contract or notice. Extract clauses, score risk, recommend negotiation moves.",
+    "feature_pipeline_title": "Transparent pipeline",
+    "feature_pipeline_body": "Watch the system classify, retrieve, rerank and synthesise — every stage is shown."
+  },
+  "chat": {
+    "title": "Legal Q&A",
+    "subtitle": "Ask in plain language. The system retrieves and reranks Indian Act sections, then synthesises a grounded answer. Ask follow-up questions to dig deeper.",
+    "placeholder": "e.g. What are the legal remedies if my employer withholds my final salary?",
+    "domain": "Domain",
+    "answer": "Answer",
+    "key_provisions": "Key Provisions",
+    "recommended_actions": "Recommended Actions",
+    "warnings": "Warnings",
+    "no_chunks": "No relevant sections retrieved. Try rephrasing or run ingest.py first."
+  },
+  "fir": {
+    "title": "FIR Generator",
+    "subtitle": "Draft a formal First Information Report mapped to BNS / IPC sections.",
+    "complainant_name": "Complainant name",
+    "incident_location": "Incident location",
+    "incident_datetime": "Incident date & time",
+    "incident_description": "Describe the incident",
+    "incident_placeholder": "Describe what happened, in your own words. Include people involved, what was said or done, and any property affected.",
+    "generate": "Draft FIR",
+    "download_pdf": "Download formal PDF",
+    "examples_label": "Or start with one of these examples"
+  },
+  "errors": {
+    "backend_down_title": "Backend is unreachable",
+    "backend_down_body": "The Python server doesn't seem to be running. Open the backend terminal and make sure it shows \"Uvicorn running on :8000\":",
+    "try_again": "Try again"
+  },
+  "analyze": {
+    "title": "Document Analyzer",
+    "subtitle": "Upload a contract, notice, or agreement. We extract text locally, ground the analysis in retrieved Indian law, and let you ask follow-up questions about the document.",
+    "drop": "Drop a file here, or click to upload",
+    "supports": "Supports .pdf (text or scanned), .txt, .md, .jpg, .jpeg, .png — scanned files are OCR-processed (max ~30,000 chars analysed)",
+    "concern_label": "Specific concern (optional)",
+    "concern_placeholder": "e.g. Is the lock-in period clause enforceable?",
+    "summary": "Summary",
+    "key_clauses": "Key Clauses",
+    "risks": "Risks",
+    "recommendations": "Recommendations",
+    "followup_title": "Ask about this document",
+    "followup_placeholder": "e.g. Explain clause 7 in simpler terms; is the notice period reasonable?"
+  },
+  "strategy": {
+    "title": "Case Strategy",
+    "subtitle": "Describe your situation; the system designs a phased legal action plan with timelines, cost estimates, statutory hooks per phase, critical deadlines, and evidence to preserve. Ask follow-up questions to refine the plan.",
+    "placeholder": "Describe the dispute, what's at stake, what you've already tried, and what outcome you want.",
+    "domain": "Domain",
+    "phases_title": "Phased Action Plan",
+    "deadlines_title": "Critical Deadlines",
+    "evidence_title": "Evidence to Preserve"
+  },
+  "pipeline": {
+    "title": "Pipeline Trace",
+    "classification": "Classification",
+    "retrieved": "Retrieved (top-k)",
+    "reranked": "Reranked (final)",
+    "model": "Model",
+    "latency": "Latency",
+    "matched_keywords": "Matched keywords"
+  }
+}

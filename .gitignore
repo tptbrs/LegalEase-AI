@@ -1,0 +1,44 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# --- Environment ---
+.env
+.env.local
+.env.*.local
+
+# --- Vector store & ingested PDFs (artifacts, not source) ---
+backend/chroma_db/*
+!backend/chroma_db/.gitkeep
+backend/data/acts/*
+!backend/data/acts/.gitkeep
+
+# --- Node / Vite ---
+node_modules/
+dist/
+build/
+.vite/
+*.tsbuildinfo
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+logs/
